@@ -319,6 +319,13 @@ h1.hero-title{
 .stack span{font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;
   color:#a9c6f2;border:1px solid var(--line);background:rgba(47,123,255,.07);
   padding:5px 9px;border-radius:6px;white-space:nowrap}
+.demo-btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;
+  font-family:var(--f-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--blue-lt);border:1px solid var(--line);background:rgba(47,123,255,.08);
+  padding:8px 14px;border-radius:10px;white-space:nowrap;margin-top:24px;
+  transition:color .2s,border-color .2s,background .2s,transform .2s var(--ease)}
+.demo-btn:hover{color:#fff;border-color:var(--blue);background:rgba(47,123,255,.18);transform:translateY(-1px)}
+.demo-btn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
 
 /* project mocks */
 .svc{display:grid;gap:6px;margin-bottom:12px}
@@ -657,6 +664,10 @@ h1.hero-title{
             <span>Figma</span><span>Front-end</span><span>Python</span>
             <span>Database</span><span>Calendar API</span>
           </div>
+          <a class="demo-btn" href="https://ziko-2pyl.onrender.com" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L20 4"/></svg>
+            Demo
+          </a>
         </div>
       </article>
 
@@ -714,6 +725,10 @@ h1.hero-title{
             <span>Figma</span><span>Front-end</span><span>Python</span>
             <span>Database</span><span>Calendar API</span>
           </div>
+          <a class="demo-btn" href="https://sola-t14k.onrender.com/" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="M10 14L20 4"/></svg>
+            Demo
+          </a>
         </div>
       </article>
 
